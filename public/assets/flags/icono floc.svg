@@ -1,0 +1,29 @@
+<svg width="1000" height="1000" viewBox="0 0 1000 1000" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo negro transparente -->
+  <rect width="1000" height="1000" fill="black" fill-opacity="0"/>
+  
+  <!-- Elemento central con banderas estilizadas -->
+  <g transform="translate(250, 350)">
+    <!-- Bandera azul con cuadrado blanco (similar a P) -->
+    <rect x="0" y="0" width="100" height="100" fill="#0057B8"/>
+    <rect x="0" y="0" width="40" height="40" fill="white"/>
+    
+    <!-- Bandera verde con rectángulo horizontal (similar a E) -->
+    <rect x="120" y="0" width="100" height="100" fill="#00B100"/>
+    <rect x="120" y="30" width="100" height="40" fill="white"/>
+    
+    <!-- Bandera roja triangular (similar a V) -->
+    <path d="M240,0 L340,0 L290,100 L240,0Z" fill="#FF0000"/>
+    
+    <!-- Bandera blanca (similar a Q) -->
+    <rect x="360" y="0" width="100" height="100" fill="white"/>
+    
+    <!-- Bandera azul con franjas verticales (similar a G) -->
+    <rect x="480" y="0" width="100" height="100" fill="#0057B8"/>
+    <rect x="500" y="0" width="20" height="100" fill="#00B100"/>
+    <rect x="540" y="0" width="20" height="100" fill="#00B100"/>
+  </g>
+  
+  <!-- Elemento de estrella que representa "floc" en la esquina -->
+  <path d="M770,420 L785,450 L820,450 L792,470 L805,500 L770,480 L735,500 L748,470 L720,450 L755,450 Z" fill="white"/>
+</svg>

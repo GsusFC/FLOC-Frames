@@ -1,0 +1,35 @@
+{
+  "name": "floc-frames",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3004",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "tunnel": "tailscale funnel 3004",
+    "dev:public": "concurrently \"npm run dev\" \"npm run tunnel\""
+  },
+  "dependencies": {
+    "@farcaster/frame-sdk": "^0.8.0",
+    "@tanstack/react-query": "^5.20.5",
+    "next": "^14.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sharp": "^0.33.2",
+    "viem": "^2.7.8",
+    "wagmi": "^2.5.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "autoprefixer": "^10.4.17",
+    "concurrently": "^8.2.2",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "^14.1.0",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  }
+}
