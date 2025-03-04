@@ -4,12 +4,15 @@
     "sizes": [256, 512, 768, 1024, 1280],
     "minimumCacheTTL": 60
   },
-  "routes": [
+  "headers": [
     {
-      "src": "/api/flag-image",
-      "headers": {
-        "Cache-Control": "public, max-age=3600"
-      }
+      "source": "/api/flag-image",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
     }
   ],
   "redirects": [
